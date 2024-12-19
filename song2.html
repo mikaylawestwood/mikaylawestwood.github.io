@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="index.css" type="text/css">
+  <script>
+    (function(d) {
+      var config = {
+        kitId: 'fzf1asp',
+        scriptTimeout: 3000,
+        async: true
+      },
+      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+    })(document);
+  </script>
+  <style>
+  #draggable-g { width: 250px; height: 300px; padding: 0.5em; }
+  #draggable-h { width: 250px; height: 300px; padding: 0.5em; }
+  #draggable-i { width: 250px; height: 200px; padding: 0.5em; }
+  #draggable-j { width: 170px; height: 170px; padding: 0.5em; }
+  </style>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#draggable-g" ).draggable();
+  } );
+    
+  $( function() {
+    $( "#draggable-h" ).draggable();
+  } );
+    
+  $( function() {
+    $( "#draggable-i" ).draggable();
+  } );
+    
+  $( function() {
+    $( "#draggable-j" ).draggable();
+  } );
+  </script>
+  <style>
+    body {
+    background-image: url('images/IMG_8117_edit.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+  </style>
+  <title>Interactive Playlist</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <main>
+     <section class="song-title">
+     <h2>777 BY JOJI</h2>
+    </section> 
+     
+    <div class="container-audio">
+      <audio controls  loop autoplay>
+        <source src="music/Joji%20-%20777.mp3">
+        Your browser dose not Support the audio Tag</audio>
+    </div> 
+     
+    <div class="content-container">
+      <div id="draggable-g">
+        <img src="images/walmart.png" alt="walmart receipt" width="250px">
+      </div>
+      
+      <div id="draggable-h">
+        <img src="images/dollarama.png" alt="dollar store receipt" width="250px">
+      </div>
+      
+      <div id="draggable-i">
+        <img src="images/bubbletea.png" alt="bubble tea receipt" width="250px">
+      </div>
+      
+      <div id="draggable-j">
+        <img src="images/parking.png" alt="parking reciept" width="170px">
+      </div>
+      
+      <div class="lyrics-box">
+        <p>
+          We were never the same, are you outta your mind?<br>
+          I don't like strings, no, no ties<br>
+          I don't wanna keep you dreamin', you waste your time<br>
+          I don't need strings, no, no lies<br>
+          <br>
+          You needed somethin' to believe in<br>
+          Two hundred miles in the evening<br>
+          Super speeding, are you leaving right now?<br>
+          When I pretend that I'm your boyfriend<br>
+          I'll pour the drinks, so don't annoy me<br>
+          Are you lonely?<br>
+          'Cause I'll be gone 'til the next when the sun's up<br>
+          Blame it on me, you can blame it on me<br>
+          Feelin' your touch and I'm feelin' so sweet (Ayy)<br>
+          Blame it on me, you can blame it on me<br>
+          Never turn back when I'm goin' full speed (Woo)<br>
+          <br>
+          Ooh, live fast, drive fast like two hundred on the dashboard<br>
+          Ooh, it's my way, my way, even if it is a crash course<br>
+          Ooh, live fast, drive fast like two hundred on the dashboard<br>
+          Ooh, no, I can't slow down, I just wanna go fast, baby<br>
+          <br>
+          Work (Work, work, work, work)<br>
+          Switchin' lanes, doin' work (Switchin' lanes, doin' work; blacka, blacka, blacka)<br>
+          All I hear is heavy metal (All I hear is heavy metal)<br>
+          Drippin' tears on my shirt (Drippin' tears on my shirt, drippin' tears on my shirt)<br>
+          Seven, seven, seven (Seven, seven, seven, seven, seven), oh<br>
+          It's a little piece of Heaven (It's a little piece of Heaven), ayy<br>
+          We don't know how to act now, yeah (We don't know)<br>
+          I don't wanna come back 'round, no<br>
+          I don't wanna let you down (Let you down)<br>
+          Told you that I'm leaving now (Leaving now)<br>
+          Please don't stay out, please don't stay out<br>
+        </p>
+      </div>
+      
+    </div>
+     
+    <div class="two-buttons">
+      <div class="button"><a href="poem1.html"><h3>BACK</h3></a></div> 
+      <div class="button"><a href="poem2.html"><h3>CONTINUE</h3></a></div>
+    </div>   
+      
+      
+    </main>
+  </div>    
+</body>
+</html>

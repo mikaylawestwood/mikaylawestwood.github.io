@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="index.css" type="text/css">
+  <script>
+    (function(d) {
+      var config = {
+        kitId: 'fzf1asp',
+        scriptTimeout: 3000,
+        async: true
+      },
+      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+    })(document);
+  </script>
+  <style>
+    body {
+    background-image: url(images/background_stars3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+  </style>
+  <title>Interactive Playlist</title>
+</head>
+
+<body>
+ <div class="wrapper">
+   <main>
+    <section class="poem-text">
+     <h1 class="singleline-fade">In the secular night you wander around<br>
+     alone in your house. It’s two-thirty.</h1>
+     <h1 class="doubleline-fade">Everyone has deserted you,<br>
+     or this is your story;</h1>
+    </section>
+    
+    <div class="two-buttons">
+      <div class="button"><a href="song1.html"><h3>BACK</h3></a></div> 
+      <div class="button"><a href="song2.html"><h3>CONTINUE</h3></a></div>
+    </div>
+  
+    </main>
+  </div>
+</body>
+</html>

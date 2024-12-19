@@ -1,0 +1,316 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*------reset above------*/
+
+
+body {
+  background-color: #000;
+  
+  font-size: 18px;
+  font-size: 112.5%;
+  font-size: 1.125em;
+  
+  max-height: 1600px;
+  max-width: 2400px;
+  margin: 0 auto;
+}
+
+.main-text {
+  position: relative;
+  top: 400px;
+  margin: 0 auto;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.poem-text {
+  position: relative;
+  top: 300px;
+  margin: 0 auto;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 700px) {
+  .poem-text {
+    top: 100px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .main-text {
+    top: 300px;
+  }
+}
+
+.lyrics-box {
+  position: absolute;
+  margin: 0 auto;
+  text-align: left;
+  max-width: 400px;
+  left: 150px;
+  top: 10px;
+  z-index: -1;
+}
+
+@media screen and (max-width: 700px) {
+  .lyrics-box {
+    left: 20px;
+  }
+}
+
+
+/*------Buttons------*/
+
+.center-button {
+  position: relative;
+  top: 700px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 50px;
+  width: 400px;
+}
+
+.button {
+  position: relative;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 200px;
+}
+
+.two-buttons {
+  margin: 0 auto;
+  width: 100%;
+  bottom: 10px;
+  position: fixed;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/*------Music Player------*/
+
+.song-title {
+  position: relative;
+  top: 50px;
+  z-index: 1;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container-audio {
+    width: 300px;
+    height: auto;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #eee;
+    color: #444;
+    margin: 20px auto;
+    position: relative;
+    top: 75px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+}
+audio {
+  width:100%;
+}
+
+/*------Typography------*/
+
+h1 {
+  font-size: 40px;
+  font-family: optique-display, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #FFFFFF;
+  line-height: 1.25em;
+}
+
+h2 {
+  font-size: 32px;
+  font-family: balboa, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+}
+
+h3 {
+  font-size: 29px;
+  font-family: balboa-condensed, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  line-height: 1.25em;
+  color: #FFFFFF;
+}
+
+p {
+  font-size: 14px;
+  font-family: optique-display, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #FFFFFF;
+  line-height: 1.25em;
+}
+
+@media screen and (max-width: 700px) {
+  h1 {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  h2 {
+    font-size: 28px;
+  }
+}
+
+#size-change {
+  animation: textSize 3s infinite;
+  animation-timing-function: ease-in-out;
+}
+
+#credits {
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: 650px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+a:link, a:visited {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+
+/*------Text Effects------*/
+
+.singleline-fade {
+  animation:fadingText 10s infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.doubleline-fade {
+  animation:fadingText 10s infinite;
+  animation-timing-function: ease-in-out;
+  opacity: 0%;
+  animation-delay: 3s;
+}
+
+@keyframes fadingText{
+  0% {opacity: 0%;}
+  48% {opacity: 100%;}
+  50% {opacity: 100%;}
+  52% {opacity: 100%;}
+  100% {opacity: 0%;}
+}
+
+@keyframes textSize {
+  0% {font-size: 29px;}
+  50% {font-size: 30px;}
+  100% {font-size: 29px;}
+}
+
+
+/*------Photo Positions------*/
+
+.content-container {
+  margin: 0 auto;
+  max-width: 600px;
+  max-height: 1600px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+}
+
+#draggable-k {
+  left: 10px;
+}
+
+#draggable-l {
+  left: 50px;
+}
+
+#draggable-m {
+  left: 30px;
+}
+
+#draggable-n {
+  left: 25px;
+}
+
+#draggable-p {
+  left: 40px;
+}
+
+
+
+
+
+
+
+
+

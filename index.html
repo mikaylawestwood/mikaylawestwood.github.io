@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="index.css" type="text/css">
+  <script>
+    (function(d) {
+      var config = {
+        kitId: 'fzf1asp',
+        scriptTimeout: 3000,
+        async: true
+      },
+      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+    })(document);
+  </script>
+  <style>
+    body {
+    background-image: url(images/background_stars3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+  </style>
+  <title>Interactive Playlist</title>
+</head>
+
+<body>
+ <div class="wrapper">
+   <main>
+    <section class="main-text">
+     <h1 class="singleline-fade">Your journey begins late in the evening...</h1>
+    </section>
+    
+      <div class="center-button"><a href="song1.html"><h3 id="size-change">CLICK TO START</h3></a></div> 
+  
+    </main>
+  </div>
+</body>
+</html>

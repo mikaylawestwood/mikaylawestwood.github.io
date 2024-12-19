@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="index.css" type="text/css">
+  <script>
+    (function(d) {
+      var config = {
+        kitId: 'fzf1asp',
+        scriptTimeout: 3000,
+        async: true
+      },
+      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+    })(document);
+  </script>
+  <style>
+  #draggable-n { width: 200px; height: 200px; padding: 0.5em; }
+  #draggable-o { width: 200px; height: 200px; padding: 0.5em; }
+  #draggable-p { width: 200px; height: 200px; padding: 0.5em; }
+  #draggable-q { width: 200px; height: 150px; padding: 0.5em; }
+  </style>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#draggable-n" ).draggable();
+  } );
+    
+  $( function() {
+    $( "#draggable-o" ).draggable();
+  } );
+    
+  $( function() {
+    $( "#draggable-p" ).draggable();
+  } );
+    
+  $( function() {
+    $( "#draggable-q" ).draggable();
+  } );
+  </script>
+  <style>
+    body {
+    background-image: url('images/IMG_3475_edit.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+  </style>
+  <title>Interactive Playlist</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <main>
+     <section class="song-title">
+     <h2>FALLEN ALIEN BY FKA TWIGS</h2>
+    </section> 
+     
+    <div class="container-audio">
+      <audio controls  loop autoplay>
+        <source src="music/fallen%20alien.mp3">
+        Your browser dose not Support the audio Tag</audio>
+    </div> 
+     
+    <div class="content-container">
+       <div id="draggable-n">
+        <img src="images/IMG_6230_edit.png" alt="" width="200px">
+      </div>
+      
+      <div id="draggable-o">
+        <img src="images/IMG_6234_edit.png" alt="" width="200px">
+      </div>
+      
+      <div id="draggable-p">
+        <img src="images/IMG_6240_edit.png" alt="" width="200px">
+      </div>
+      
+      <div id="draggable-q">
+        <img src="images/IMG_6241_edit.png" alt="" width="150px">
+      </div>
+      
+      <div class="lyrics-box">
+        <p>
+          I was waiting for you, I was outside<br>
+          Don't tell me what you want 'cause I know you lie<br>
+          I feel<br>
+          I was waiting for you, on the outside<br>
+          Don't tell me what you want 'cause I know you lie<br>
+          I feel the light<br>
+          I was crying for you, on the outside<br>
+          Don't tell me what you want 'cause I know you lie<br>
+          <br>
+          I'm a fallen alien<br>
+          I never thought that you would be the one to tie me down<br>
+          But you did<br>
+          In this age of Satan<br>
+          I'm searching for a light to take me home and guide me out<br>
+          <br>
+          In the blazing sun I saw you<br>
+          In the shadows hiding from yourself<br>
+          When the lights are on I know you<br>
+          See you're grey from all the lies you tell<br>
+          Now you hold me close so tender<br>
+          (I was waiting for you, I was outside)<br>
+          In the shadows hiding from yourself<br>
+          (I was waiting for you, I was outside)<br>
+          When the lights are on I know you<br>
+          See you're grey from all the lies you tell<br>
+          (Don't tell me what you want 'cause I know you lie)<br>
+          Now you hold me close so tender<br>
+          When you fall asleep I'll kick you down<br>
+          By the way you fell I know you<br>
+          Now you're on your knees<br>
+          I feel the lightning blast<br>
+    <!-- <br>
+          In the blazing sun I saw you<br>
+          In the shadows hiding from yourself<br>
+          When the lights are on I know you<br>
+          See you're grey from all the lies you tell<br>
+          Now you hold me close so tender<br>
+          When you fall asleep I'll kick you down<br>
+          By the way you fell I know you<br>
+          (I was waiting for you, I was outside)<br>
+          See you're grey from all the lies you tell<br>
+          (Don't tell me what you want)<br>
+          Now you hold me close so tender<br>
+          When you fall asleep I'll kick you down<br>
+          By the way you fell I know you<br>
+          Now you're on your knees<br>
+          I feel the lightning blast -->
+        </p>
+      </div>
+      
+    </div>
+     
+    <div class="two-buttons">
+      <div class="button"><a href="poem3.html"><h3>BACK</h3></a></div> 
+      <div class="button"><a href="ending.html"><h3>CONTINUE</h3></a></div>
+    </div>   
+      
+      
+    </main>
+  </div>    
+</body>
+</html>

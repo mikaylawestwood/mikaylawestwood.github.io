@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="index.css" type="text/css">
+  <script>
+    (function(d) {
+      var config = {
+        kitId: 'fzf1asp',
+        scriptTimeout: 3000,
+        async: true
+      },
+      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+    })(document);
+  </script>
+  <style>
+  #draggable-k { width: 200px; height: 250px; padding: 0.5em; }
+  #draggable-l { width: 200px; height: 325px; padding: 0.5em; }
+  #draggable-m { width: 200px; height: 250px; padding: 0.5em; }
+  </style>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#draggable-k" ).draggable();
+  } );
+    
+  $( function() {
+    $( "#draggable-l" ).draggable();
+  } );
+    
+  $( function() {
+    $( "#draggable-m" ).draggable();
+  } );
+  </script>
+  <style>
+    body {
+    background-image: url('images/IMG_7533_edit_original.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+  </style>
+  <title>Interactive Playlist</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <main>
+     <section class="song-title">
+     <h2>DEVIL'S ADVOCATE BY THE NEIGHBOURHOOD</h2>
+    </section> 
+     
+    <div class="container-audio">
+      <audio controls  loop autoplay>
+        <source src="music/The%20Neighbourhood%20-%20Devil's%20Advocate%20(Official%20Lyric%20Video).mp3">
+        Your browser dose not Support the audio Tag</audio>
+    </div> 
+     
+    <div class="content-container">
+      <div id="draggable-k">
+        <img src="images/IMG_6211_edit.png" alt="found word writing" width="250px">
+      </div>
+      
+      <div id="draggable-l">
+        <img src="images/IMG_6216_edit.png" alt="notebook writing" width="250x">
+      </div>
+      
+      <div id="draggable-m">
+        <img src="images/IMG_6221_edit.png" alt="written out dream" width="250px">
+      </div>
+      
+      <div class="lyrics-box">
+        <p>
+          I trade the whip out for a bike, uh<br>
+          Designer for some Nikes<br>
+          Switch the stripper for a wife<br>
+          Black tie for a white tee, uh<br>
+          I've been moving lightspeed, lightspeed, lightspeed, lightspeed<br>
+          Lightspeed, lightspeed, lightspeed, lightspeed<br>
+          <br>
+          Look, I don't want to try<br>
+          Keep it cool like iced tea<br>
+          So if I seem shy<br>
+          It's 'cause you seem so shiesty<br>
+          Sellin' what you buy, buy, buy<br>
+          Just a product of the 90's<br>
+          If you close your eyes, uh<br>
+          That's where you'll find me<br>
+          <br>
+          I'm the devil's advocate<br>
+          You don't know the half of it<br>
+          Good luck tryna manage it<br>
+          If a God is a dog, and a man is a fraud, then I'm a lost cause<br>
+          <br>
+          Twenty-two's on the ride (Ride)<br>
+          Bring me back a five piece (Five)<br>
+          Same ticket for the rent, yeah<br>
+          But I split it with a dime piece, uh<br>
+          Married to my friends<br>
+          They don't always like me<br>
+          I stay together for the kids, uh<br>
+          I gotta do the right thing<br>
+          <br>
+          It ain't right for me<br>
+          Is it right for you?<br>
+          If you're missing me<br>
+          There is one thing to do<br>
+        </p>
+      </div>
+      
+    </div>
+     
+    <div class="two-buttons">
+      <div class="button"><a href="poem2.html"><h3>BACK</h3></a></div> 
+      <div class="button"><a href="poem3.html"><h3>CONTINUE</h3></a></div>
+    </div>   
+      
+      
+    </main>
+  </div>    
+</body>
+</html>

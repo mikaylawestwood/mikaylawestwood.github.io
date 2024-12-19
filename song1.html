@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="index.css" type="text/css">
+  <script>
+    (function(d) {
+      var config = {
+        kitId: 'fzf1asp',
+        scriptTimeout: 3000,
+        async: true
+      },
+      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+    })(document);
+  </script>
+  <style>
+  #draggable-a { width: 150px; height: 300px; padding: 0.5em; }
+  #draggable-b { width: 150px; height: 300px; padding: 0.5em; }
+  #draggable-c { width: 150px; height: 300px; padding: 0.5em; }
+  #draggable-d { width: 150px; height: 300px; padding: 0.5em; }
+  #draggable-e { width: 150px; height: 300px; padding: 0.5em; }
+  #draggable-f { width: 150px; height: 300px; padding: 0.5em; }
+  </style>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#draggable-a" ).draggable();
+  } );
+    
+  $( function() {
+    $( "#draggable-b" ).draggable();
+  } );
+    
+  $( function() {
+    $( "#draggable-c" ).draggable();
+  } );
+    
+  $( function() {
+    $( "#draggable-d" ).draggable();
+  } );
+    
+  $( function() {
+    $( "#draggable-e" ).draggable();
+  } );
+    
+  $( function() {
+    $( "#draggable-f" ).draggable();
+  } );
+  </script>
+  <style>
+    body {
+    background-image: url('images/0026_edit.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+  </style>
+  <title>Interactive Playlist</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <main>
+     <section class="song-title">
+     <h2>HALLOWEEN BY PHOEBE BRIDGERS</h2>
+    </section> 
+     
+    <div class="container-audio">
+      <audio controls  loop autoplay>
+        <source src="music/Halloween.mp3">
+        Your browser dose not Support the audio Tag</audio>
+    </div> 
+     
+    <div class="content-container">
+       <div id="draggable-a">
+        <img src="images/firepit.png" alt="firepit" width="230px">
+      </div>
+     
+      <div id="draggable-b">
+        <img src="images/flowers.png" alt="flowers" width="200px">
+      </div>
+      
+      <div id="draggable-c">
+        <img src="images/mirror.png" alt="mirror" width="215px">
+      </div>
+      
+      <div id="draggable-d">
+        <img src="images/sally.png" alt="dog" width="200px">
+      </div>
+      
+      <div id="draggable-e">
+        <img src="images/swingset.png" alt="swingset" width="200px">
+      </div>
+      
+      <div id="draggable-f">
+        <img src="images/seattle.png" alt="Seattle" width="220px">
+      </div>
+      
+      <div class="lyrics-box">
+      <p>
+        I hate living by the hospital<br>
+        The sirens go all night<br>
+        I used to joke that if they woke you up<br>
+        Somebody better be dying<br>
+        Sick of the questions I keep asking you<br>
+        They make you live in the past<br>
+        But I can count on you to tell me the truth<br>
+        When you've been drinking and you're wearing a mask<br>
+        <br>
+        Baby, it's Halloween<br>
+        And we can be anything<br>
+        Oh, come on, man<br>
+        We can be anything<br>
+        <br>
+        Always surprised by what I do for love<br>
+        Some things I never expect<br>
+        They killed a fan down by the stadium<br>
+        Was only visiting, they beat him to death<br>
+        <br>
+        Baby, it's Halloween<br>
+        And we can be anything<br>
+        Oh, come on, man<br>
+        We can be anything<br>
+        Baby, it's Halloween<br>
+        There's a last time for everything<br>
+        Oh, come on, man<br>
+        We can be anything<br>
+        <br>
+        Whatever you want<br>
+        I'll be whatever you want<br>
+        Whatever you want<br>
+        Be whatever you want<br>
+        I'll be whatever you want<br>
+        Whatever you want<br>
+        I'll be whatever you want<br>
+        Whatever you want<br>
+        Whatever you want</p>
+      </div>
+      
+    </div>
+     
+    <div class="two-buttons">
+      <div class="button"><a href="index.html"><h3>BACK</h3></a></div> 
+      <div class="button"><a href="poem1.html"><h3>CONTINUE</h3></a></div>
+    </div>
+      
+      
+      
+    </main>
+  </div>    
+</body>
+</html>
